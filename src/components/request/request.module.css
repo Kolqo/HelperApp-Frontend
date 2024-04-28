@@ -1,0 +1,108 @@
+
+/*  Реквест Div   */
+.requestBox {
+    width: 150px;
+    height: 260px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    transition: transform 0.2s;
+}
+
+.requestBox:hover {
+    transform: scale(1.05);
+}
+
+/*  Картинка, яка встановлюється користувачем   */
+.requestBoxImage {
+    width: 100%;
+    height: 150px; 
+}
+
+.imageClass {
+    width: 150px;
+    height: 150px;
+
+    pointer-events: none;
+}
+
+.imageClass img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 4px;
+
+    object-fit: contain;
+}
+
+/*  Інформаці про реквест та іконки   */
+.requestBoxDescritionAndIcons {
+    width: 100%;
+    height: 110px;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.requestBoxDescrition {
+    width: 110px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.requestIcons {
+    width: 40px;
+}
+
+/*  Опис  */
+.requestBoxDescritionOne {
+    height: 40px;
+
+    font-size: 10px;
+}
+
+.requestBoxDescritionTwo {
+    height: 50px;
+    font-size: 10px;
+}
+
+.requestBoxDescritionThree {
+    height: 10px;
+    font-size: 8px;
+}
+
+/*  Іконки  */
+.requestBoxIconOne {
+    height: 50%;
+
+    padding: 3px 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    transition: transform 0.2s;
+}
+
+.requestBoxIconOne:hover {
+    transform: scale(1.10);
+}
+
+.requestBoxIconTwo {
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    transition: transform 0.2s;
+}
+
+.requestBoxIconTwo:hover {
+    transform: scale(1.10);
+}

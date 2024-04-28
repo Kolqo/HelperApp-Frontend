@@ -1,0 +1,75 @@
+/*  Шаблон кастомного селекту  */
+.group {
+    position: relative;
+}
+
+.select {
+    width: 100%;
+    height: 100%;
+
+    margin: 0 0 7px 0;
+    padding: 10px 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: gray;
+
+    border: 2px solid #CCCCCC;
+    border-radius: 7.5px;
+
+    transition: border-color 0.2s ease; 
+
+    cursor: pointer;
+
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+}
+
+.select:hover {
+    border-color: rgb(55, 110, 160);
+}
+
+/*  Стиль варіанту  */
+.dropdown_group {
+    position: absolute;
+
+    width: 100%;
+
+    padding: 10px 10px;
+
+    top: 110%;
+    left: 0;
+
+    border: 2px solid rgb(55, 110, 160);
+    border-radius: 7.5px;
+
+    background-color: #fff;
+
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+
+    z-index: 1;
+}
+
+.dropdown_item {
+    width: 100%;
+    height: 40px;
+
+    padding: 0 10px;
+
+    color: gray;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown_item:hover {
+    background: #f4f4f4;
+}

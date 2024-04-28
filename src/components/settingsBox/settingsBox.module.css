@@ -1,0 +1,29 @@
+/*  Шаблон настройки  */
+.group {
+    position: relative;
+}
+
+.iconBox {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+
+    left: 15px;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementBox {
+    position: absolute;
+    height: 100%;
+
+    right: 20px;
+    top: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

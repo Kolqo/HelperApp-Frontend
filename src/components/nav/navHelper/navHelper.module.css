@@ -1,0 +1,41 @@
+/*  Нижнє меню для Helper   */
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid #CCCCCC;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.navElementText {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.elementBox {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    transform: scale(1.1);
+}

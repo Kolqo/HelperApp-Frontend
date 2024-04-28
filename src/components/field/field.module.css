@@ -1,0 +1,10 @@
+/*  Шаблон текстового поля   */
+.textareaClass {
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+    outline: none; 
+    resize: none;
+}

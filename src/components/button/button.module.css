@@ -1,0 +1,27 @@
+/*  Шаблон кнопки   */
+.buttonClass {
+    border-radius: 7.5px;
+    border: 2px solid rgb(6, 36, 64);
+    background-color: rgb(6, 36, 64);
+
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+}
+
+.buttonClass:active {
+    transform: scale(1.05);
+
+    box-shadow: 3px 3px 10px 6px rgba(55, 110, 160, 0.06);
+}
+
+.buttonClass:hover {
+    box-shadow: 3px 3px 10px 6px rgba(55, 110, 160, 0.06);
+}
